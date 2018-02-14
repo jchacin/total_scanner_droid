@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Total Scanner</string>
+    <string name="browser">Explorador</string>
+    <string name="title_settings">Ajustes</string>
+    <string name="title_scanner">Escáner</string>
+    <string name="text_reading">Lectura...</string>
+    <string name="setting_autofocus">Autoenfoque</string>
+    <string name="setting_sound">Sonido de lectura</string>
+    <string name="setting_autoredirect">Redirección web automático</string>
+
+    <!-- messages -->
+    <string name="reading_copied">Lectura copiada</string>
+    <string name="first_reading">Primero realiza una lectura</string>
+    <string name="invalid_link">Enlace inválido</string>
+    <string name="problem_loading_link">Ocurrió un problema cargando el enlace</string>
+    <string name="back_click">Presiona atrás de nuevo para salir de la aplicación</string>
+    <string name="camera_permission_denied">Permisos de cámara no otorgados</string>
+    <string name="try_again">Ocurrió un problema, por favor intenta de nuevo</string>
+    <string name="redirecting">Redireccionando...</string>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1">
+
+    <TextView
+        android:id="@+id/text_scanning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="30dp"
+        android:inputType="textMultiLine"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="60dp"
+        android:text="@string/text_reading"
+        android:textSize="20sp" />
+    <ImageView
+        android:id="@+id/btn_searh"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/png_search_web"
+        android:layout_marginRight="30dp"
+        android:onClick="search"/>
+    <ImageView
+        android:id="@+id/btn_copy"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/png_content_copy"
+        android:onClick="copy"/>
+    <SurfaceView
+        android:id="@+id/scanner"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"/>
+</RelativeLayout>

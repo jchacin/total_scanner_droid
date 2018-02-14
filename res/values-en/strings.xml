@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Total Scanner</string>
+    <string name="browser">Browser</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_scanner">Scanner</string>
+    <string name="text_reading">Reading...</string>
+    <string name="setting_autofocus">Auto focus</string>
+    <string name="setting_sound">Reading sound</string>
+    <string name="setting_autoredirect">Automatic web redirection</string>
+
+    <!-- messages -->
+    <string name="reading_copied">Reading copied</string>
+    <string name="first_reading">First read</string>
+    <string name="invalid_link">Invalid link</string>
+    <string name="problem_loading_link">There was a problem loading the link</string>
+    <string name="back_click">Please click BACK again to exit</string>
+    <string name="camera_permission_denied">Camera permission denied</string>
+    <string name="try_again">There was a problem, please try again</string>
+    <string name="redirecting">Redirecting...</string>
+</resources>

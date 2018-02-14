@@ -39,7 +39,12 @@ public class BrowserActivity extends AppCompatActivity {
 
             //initialize web browser
             this.webView = (WebView) findViewById(R.id.web_view);
-            webView.setWebViewClient(new WebViewClient());
+            webView.setWebViewClient(new WebViewClient() /*{
+	            public boolean shouldOverrideUrlLoading(WebView view, String url){
+			        view.loadUrl(url);
+			        return false;
+			    }
+            }*/);
             webView.getSettings().setJavaScriptEnabled(true);
             webView.setVerticalScrollBarEnabled(false);
             webView.setHorizontalScrollBarEnabled(false);
